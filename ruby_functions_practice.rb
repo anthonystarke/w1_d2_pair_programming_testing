@@ -41,7 +41,8 @@ def number_to_full_month_name(number_of_month)
   case number_of_month
     when 1
       return "January"
-
+    when 3
+      return "March"
     else
       return "Not January"
   end
