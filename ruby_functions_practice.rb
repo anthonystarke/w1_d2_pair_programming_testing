@@ -35,3 +35,14 @@ def add_string_as_number(first_string, second_string)
   return first_string.to_i + second_string.to_i
 
 end
+
+def number_to_full_month_name(number_of_month)
+
+  case number_of_month
+    when 1
+      return "January"
+
+    else
+      return "Not January"
+  end
+end
