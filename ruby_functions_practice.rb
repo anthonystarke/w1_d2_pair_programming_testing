@@ -49,3 +49,17 @@ def number_to_full_month_name(number_of_month)
       return "Not January"
   end
 end
+
+def number_to_short_month_name(number_of_month)
+
+  case number_of_month
+    when 1
+      return "Jan"
+    when 4
+      return "Apr"
+    when 10
+      return "Oct"
+    else
+      return "Not January"
+  end
+end
