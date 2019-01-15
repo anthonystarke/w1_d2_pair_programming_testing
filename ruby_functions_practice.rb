@@ -63,3 +63,7 @@ def number_to_short_month_name(number_of_month)
       return "Not January"
   end
 end
+
+def volume_of_cube(height,width,depth)
+  return height * width * depth
+end
