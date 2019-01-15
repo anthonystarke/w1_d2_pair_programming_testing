@@ -43,6 +43,8 @@ def number_to_full_month_name(number_of_month)
       return "January"
     when 3
       return "March"
+    when 9
+      return "September"
     else
       return "Not January"
   end
