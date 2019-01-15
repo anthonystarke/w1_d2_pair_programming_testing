@@ -7,3 +7,7 @@ end
 def add(a, b)
   return a + b
 end
+
+def subtract(first_number, second_number)
+ return first_number - second_number
+end
