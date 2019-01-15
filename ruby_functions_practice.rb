@@ -67,3 +67,9 @@ end
 def volume_of_cube(height,width,depth)
   return height * width * depth
 end
+
+
+def volume_of_sphere(radius)
+  pi = 4 / 3.0 * 3.14
+  return pi * (radius**3)
+end
